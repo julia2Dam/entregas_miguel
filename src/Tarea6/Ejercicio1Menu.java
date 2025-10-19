@@ -162,7 +162,7 @@ public class Ejercicio1Menu {
                 }
             }
         } catch (IOException | ClassNotFoundException e) {
-            // si el fichero está vacío o no existe aún, no pasa nada
+            // si el fichero está vacío o no existe no pasa nada
         }
 
         // Añadir nuevo alumno
@@ -191,7 +191,7 @@ public class Ejercicio1Menu {
                 try {
                     Alumno a = (Alumno) ois.readObject();
                     System.out.println(a);
-                    System.out.println("--------------------------");
+                    System.out.println("-----------");
                 } catch (EOFException e) {
                     break;
                 }
