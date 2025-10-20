@@ -19,7 +19,6 @@ public class Alumno implements java.io.Serializable{
 		private String ciclo;
 		private String curso;
 		private String grupo;
-		private static final long serialVersionUID = 1L;
 		
 		
 		public Alumno(int nia, String nombre, String apellidos, char genero, Date fechaNacimiento, String ciclo,
